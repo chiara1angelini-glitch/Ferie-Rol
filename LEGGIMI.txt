@@ -1,0 +1,27 @@
+FERIE & ROL - installazione sul telefono Android
+================================================
+
+Questa cartella contiene l'app completa. Funziona offline e i dati restano solo sul telefono.
+
+OPZIONE A - Installarla come app dal browser (la più semplice)
+1. Crea un account gratuito su https://github.com
+2. Crea un nuovo repository (es. "ferie-rol"), impostalo come Privato o Pubblico
+   (il codice non contiene i tuoi dati: quelli restano sul telefono).
+3. "Add file" -> "Upload files": carica TUTTI i file di questa cartella.
+4. Settings -> Pages -> Source: "Deploy from a branch", branch "main", cartella "/ (root)" -> Save.
+   Nota: con il piano gratuito GitHub Pages richiede un repository pubblico.
+5. Dopo un minuto apri dal telefono, con Chrome, l'indirizzo che GitHub ti mostra
+   (es. https://tuonome.github.io/ferie-rol/).
+6. Menu di Chrome (tre puntini) -> "Aggiungi a schermata Home" / "Installa app".
+Da quel momento l'app si apre dall'icona e funziona anche senza internet.
+
+OPZIONE B - Ottenere un file APK
+1. Fai prima i passi 1-5 dell'opzione A.
+2. Vai su https://www.pwabuilder.com, incolla l'indirizzo della tua app e scegli "Package for stores" -> Android.
+3. Scarica il pacchetto: contiene un file .apk da installare sul telefono
+   (Android chiederà di consentire l'installazione da origini sconosciute).
+
+BACKUP
+I dati sono salvati solo nel telefono. Da Impostazioni -> "Esporta backup" salva ogni tanto
+un file .json (es. su Drive o via mail a te stesso). Se cambi telefono o cancelli i dati del
+browser, lo reimporti con "Importa backup".
